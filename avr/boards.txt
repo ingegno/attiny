@@ -35,6 +35,13 @@ ATtinyX5.menu.clock.internal1.bootloader.high_fuses=0xdf
 ATtinyX5.menu.clock.internal1.bootloader.extended_fuses=0xff
 ATtinyX5.menu.clock.internal1.build.f_cpu=1000000L
 
+
+ATtinyX5.menu.clock.internal1R=Internal 1 MHz Reset disable
+ATtinyX5.menu.clock.internal1R.bootloader.low_fuses=0x62
+ATtinyX5.menu.clock.internal1R.bootloader.high_fuses=0x5f
+ATtinyX5.menu.clock.internal1R.bootloader.extended_fuses=0xff
+ATtinyX5.menu.clock.internal1R.build.f_cpu=1000000L
+
 ATtinyX5.menu.clock.internal8=Internal 8 MHz
 ATtinyX5.menu.clock.internal8.bootloader.low_fuses=0xe2
 ATtinyX5.menu.clock.internal8.bootloader.high_fuses=0xdf
